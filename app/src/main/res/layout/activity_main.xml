@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="3"
+            android:background="#26A36D"
+            android:padding="16dp"
+            android:text="Start"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/result_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="3"
+            android:background="#A39F9C"
+            android:padding="16dp"
+            android:text="results"
+            android:textColor="#FFFFFF" />
+        <!--        android:drawableLeft="@drawable/ic_skip"-->
+
+        <Button
+            android:id="@+id/setting_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="3"
+            android:background="#B8062A"
+            android:padding="16dp"
+            android:text="Setting"
+            android:textColor="#FFFEFC" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

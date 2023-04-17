@@ -1,0 +1,1 @@
+package uz.mrdos.lesson7.coreimport android.app.Applicationimport uz.mrdos.lesson7.core.ResultCacheclass App : Application() {    override fun onCreate() {        super.onCreate()        ResultCache.init(this)    }}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="game_3_card_style">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">96dp</item>
+    </style>
+
+    <style name="game_3_card_style_land">
+        <item name="android:layout_width">86dp</item>
+        <item name="android:layout_height">86dp</item>
+    </style>
+
+    <style name="game_card_style">
+        <item name="android:layout_width">76dp</item>
+        <item name="android:layout_height">76dp</item>
+    </style>
+
+    <style name="game_card_style_land">
+        <item name="android:layout_width">66dp</item>
+        <item name="android:layout_height">66dp</item>
+    </style>
+
+    <style name="game_5_card_style">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+
+    <style name="game_5_card_style_land">
+        <item name="android:layout_width">46dp</item>
+        <item name="android:layout_height">46dp</item>
+    </style>
+
+    <style name="pauseButton">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+</resources>
